@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>Conference 97: Feedback</title></head>  
+<body bgcolor=#FFFFFF>
+
+<!-- to center the internal table -->
+<table width="100%"><tr><td align=center>
+
+<table width=600>
+
+<!-- format line - do not remove me -->
+    <tr><td width=100><img src="images/50x1.gif" alt=" "></td>
+        <td width=500>&nbsp;</td></tr> 
+
+<!-- banner -->
+    <tr><td width colspan=2>
+        <center>
+        <img src="images/logo.1997.acm.gif"><br>
+        <h1>	1997 Midwestern ACM Chapter Conference<br> 
+		Feedback Form
+	</h1>
+        </center>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b></b></td></tr>
+    <tr><td></td><td>
+	We'd like to hear your feedback, what you like/disliked about the Conference.
+	<br>
+	Thanks for taking the time to submit your comments.
+    </td></tr>
+
+	<!-----/table>
+	</td></tr>
+	</table---->
+	<!---- the form table ---->
+	<!---table width="100%"><tr><td align=center---->
+
+<form method=POST action="/acm-cgi-bin/conference/feedback.cgi">
+
+<!----
+Overall
+Speakers
+Workshops
+Job Fair
+Facilities
+---->
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Contact Information <i>(optional)</i></b></td></tr>
+    <tr><td></td><td>
+	<br>
+	Name <input type="text" size=40 name="name" maxlength=200>
+	<br>
+	E-mail	<input type="text" size=40 name="email" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Overall</b></td></tr>
+    <tr><td></td><td>
+	<b>How did you like the Conference overall:</b>
+	<select name="overall_rating">
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+	</select>
+	<br>
+	Comments
+	<br>
+	<input type="text" size=40 name="overall_comments" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Talks</b></td></tr>
+    <tr><td></td><td>
+	<b>How would you rate the Conference talks:</b>
+	<select name="speakers_rating">
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+	</select>
+	<br>
+	Comments
+	<br>
+	<input type="text" size=40 name="speakers_comments" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Workshops</b></td></tr>
+    <tr><td></td><td>
+	<b>How would you rate the Conference workshops:</b>
+	<select name="workshops_rating">
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+	</select>
+	<br>
+	Comments
+	<br>
+	<input type="text" size=40 name="workshops_comments" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Mechmania</b></td></tr>
+    <tr><td></td><td>
+	<b>How would you rate the Mechmania '97 Programming Contest:</b>
+	<select name="mechmania_rating">
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+	</select>
+	<br>
+	Comments
+	<br>
+	<input type="text" size=40 name="mechmania_comments" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Facilities & Provisions</b></td></tr>
+    <tr><td></td><td>
+	<b>How would you rate the facilities and provisions for Conference attendees:</b>
+	<select name="facilities-provisions_rating">
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+	</select>
+	<br>
+	Comments
+	<br>
+	<input type="text" size=40 name="facilities-provisions_comments" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Job Fair</b></td></tr>
+    <tr><td></td><td>
+	<b>How would you rate the Job Fair:</b>
+	<select name="job_fair_rating">
+		<option>10</option>
+		<option>9</option>
+		<option>8</option>
+		<option>7</option>
+		<option>6</option>
+		<option>5</option>
+		<option>4</option>
+		<option>3</option>
+		<option>2</option>
+		<option>1</option>
+	</select>
+	<br>
+	Comments: (setup, companies, etc.)
+	<br>
+	<input type="text" size=40 name="job_fair_comments" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>How Heard About Conference</b></td></tr>
+    <tr><td></td><td>
+	<b>How did you hear about Conference (check all that apply):</b>
+	<br>
+	<input type="checkbox" name="heard_uiuc_acm">ACM UIUC Chapter
+	<BR>
+	<input type="checkbox" name="heard_local_acm">Local ACM Chapter, 
+		Please specify: <input type="text" size=40 name="heard_local_acm_chapter" maxlength=200> 
+	<br>
+	<input type="checkbox" name="heard_uiuc_cs"> UIUC Computer Science Dept.
+	<br>
+	<input type="checkbox" name="heard_acm_email">E-mail, ACM
+	<br>
+	<input type="checkbox" name="heard_email">E-mail, Other
+	<br>
+	<input type="checkbox" name="heard_flyer">Conference flyer
+	<br>
+	<input type="checkbox" name="heard_word_of_mouth">Word of mouth
+	<br>
+	<input type="checkbox" name="heard_web">Advertisement, Web
+	<br>
+	<input type="checkbox" name="heard_magazine">Advertisement, Magazine
+	<br>
+	<input type="checkbox" name="heard_newspaper">Advertisement, Newspaper
+	<br>Other: 	
+	<input type="text" size=40 name="heard_other" maxlength=200>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2><br><hr><b>Comments</b></td></tr>
+    <tr><td></td><td>
+	<p>
+	<textarea name="general_comments" rows=10 cols=50></textarea>
+
+	<p>
+	Any additional comments or questions can be mailed to <a  href="mailto:conference@acm.uiuc.edu">conference@acm.uiuc.edu</a>.
+
+	<p>
+	<input type="submit" value="Send Feedback">
+	<input type="reset" value="Reset">
+	<br>
+    </td></tr>
+
+<!-- item -->
+    <tr><td colspan=2>
+	<hr>
+    </td></tr>
+
+</table>
+</form>
+</td></tr>
+</table>
+<!-- end form table -->
+
+<center>
+<a href="/">Association for Computing Machinery</a>, University of Illinois at Urbana-Champaign<br>
+<i>Last updated: 10/19/97 <a href="mailto:jachrist@uiuc.edu">jachrist@uiuc.edu</a></i> 
+</center>
+</BODY> </HTML>
